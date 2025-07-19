@@ -1,0 +1,2 @@
+0 2 * * * /home/si/scripts/incremental_backup.fish
+0 3 * * 0 /home/si/scripts/ssd_backup.fish

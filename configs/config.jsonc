@@ -1,0 +1,150 @@
+{
+  "$schema": "https://github.com/fastfetch-rs/fastfetch/raw/dev/json_schema.json",
+  "display": {
+    "separator": " -> ",
+    "color": {
+      "separator": "yellow"
+    }
+  },
+  "modules": [
+    {
+      "type": "title",
+      "color": {
+        "user": "yellow",
+        "at": "blue",
+        "host": "yellow"
+      }
+    },
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "circle"
+    },
+    {
+      "type": "os",
+      "key": "󰌽 OS",
+      "keyColor": "blue",
+      "format": "{pretty-name}"
+    },
+    {
+      "type": "kernel",
+      "key": "󰍛 Kernel",
+      "keyColor": "blue",
+      "format": "{release}"
+    },
+    {
+      "type": "packages",
+      "key": "󰏖 Packages",
+      "keyColor": "blue",
+      "format": "{all} (pacman)"
+    },
+    {
+      "type": "shell",
+      "key": " Shell",
+      "keyColor": "blue",
+      "format": "{name} {version}"
+    },
+    "break",
+    {
+      "type": "wm",
+      "key": "󰖲 DE/WM",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "lm",
+      "key": "󰧨 Login",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "wmtheme",
+      "key": "󰉼 WM Theme",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "theme",
+      "key": "󰃣 Theme",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "icons",
+      "key": "󰀻 Icons",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "font",
+      "key": "󰛖 Font",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "terminal",
+      "key": " Terminal",
+      "keyColor": "yellow"
+    },
+    "break",
+    {
+      "type": "host",
+      "key": "󰌢 Host",
+      "keyColor": "green"
+    },
+    {
+      "type": "cpu",
+      "key": "󰻠 CPU",
+      "keyColor": "green",
+      "format": "{name}"
+    },
+    {
+      "type": "gpu",
+      "key": "󰍛 GPU",
+      "keyColor": "green",
+      "format": "{vendor} {name}"
+    },
+    {
+      "type": "memory",
+      "key": "󰑭 Memory",
+      "keyColor": "green",
+      "format": "{used} / {total} ({percentage}%)"
+    },
+    {
+      "type": "disk",
+      "key": " Storage",
+      "keyColor": "green",
+      "folders": ["/"],
+      "format": "{used} / {total} ({percentage}%)"
+    },
+    {
+      "type": "display",
+      "key": "󰍹 Display",
+      "keyColor": "green",
+      "format": "{width}x{height} @ {refresh-rate}Hz"
+    },
+    {
+      "type": "uptime",
+      "key": "󰅐 Uptime",
+      "keyColor": "green"
+    },
+    "break",
+    {
+      "type": "localip",
+      "key": "󰓡 Local IP",
+      "keyColor": "cyan",
+      "format": "{ipv4} ({ifname})"
+    },
+    {
+      "type": "publicip",
+      "key": "󰞉 Public IP",
+      "keyColor": "cyan",
+      "timeout": 2000
+    },
+    {
+      "type": "wifi",
+      "key": "󰖩 WiFi",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "bluetoothradio",
+      "key": "󰂯 Bluetooth",
+      "keyColor": "cyan"
+    },
+    "break"
+  ]
+}
